@@ -1,0 +1,39 @@
+a{
+	text-decoration: none;
+}
+
+#box1 ul li a
+{
+	
+	color:#fff;
+}
+#box1 ul li a:hover
+{
+	color:#fa7252;
+	transition: color 0.2s linear;
+}
+#box1 h2
+{
+	color:#fff;
+}
+#box1
+{
+	display:flex;
+	justify-content:flex-start;
+	background-color: rgba(14,22,35,.89);
+}
+#box1 ul
+{
+	position: relative;
+	display: flex;
+	width:21%;
+	justify-content:space-around;
+	list-style: none;
+	top:9px;
+
+}
+#address
+{
+	height:80px;
+	width:250px;
+}

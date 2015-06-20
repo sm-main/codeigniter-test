@@ -41,12 +41,12 @@ class Student_info extends CI_Model{
 			);
 
 	}
-	function form_insert($data){
+	public function form_insert($data){
 		$this->load->database();
 		$this->db->insert('student_table',$data);
 
 	}
-	function view_student()
+	public function view_student()
 	{
 		$this->load->database();
 		$query = $this->db->get('student_table');

@@ -12,7 +12,8 @@
     		<li><a href="">List all Students</a></li>
     	</ul>
         </div>  
-        <ul>
+        <h2>List Of Students</h2>
+        <ol>
             
                 <?php foreach($query as $row): ?>
  
@@ -21,9 +22,10 @@
                 <?php echo $row->student_id; ?>
                 <?php echo $row->student_address; ?>
                 <?php echo $row->student_passing_year; ?>
+
             </li>    
                 <?php endforeach; ?>
-        </ul>
+        </ol>
  
     	
     	

@@ -19,9 +19,8 @@
  
             <li>        
                 <?php echo $row->student_name; ?>
-                <?php echo $row->student_id; ?>
-                <?php echo $row->student_address; ?>
-                <?php echo $row->student_passing_year; ?>
+                <a href="">Update</a>
+                <a href="">Delete</a>
 
             </li>    
                 <?php endforeach; ?>
